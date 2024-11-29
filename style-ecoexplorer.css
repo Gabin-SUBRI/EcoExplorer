@@ -119,4 +119,13 @@ footer {
   padding: 5px 0;
 }
 
+@media (max-width: 768px) {
+  #destination {
+    display: flex;
+    flex-direction: column;
+    h2 {
+      margin-top: -90px;
+    }
+  }
+}
 /*______________ FIN #concept ______________*/
