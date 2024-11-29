@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap");
+/***************** CSS GENERALE *****************/
+body {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+h1,
+h2 {
+  font-family: "Jaro", sans-serif;
+  font-weight: 400;
+}
+
+/***************** CLASSE GLOBALE *****************/
+
+/***************** CSS PAR SECTION *****************/
+
+/*______________ Header ______________*/
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.3)),
+    url("d.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 250px 30px;
+
+  h1 {
+    font-size: 80px;
+    margin: 0;
+    position: relative;
+    bottom: 200px;
+    font-weight: 300;
+  }
+
+  a,
+  p {
+    color: white;
+    position: relative;
+    bottom: 200px;
+  }
+  a {
+    text-decoration: none;
+    margin: 0 30px;
+  }
+}
+/*______________ Fin Header ______________*/
+
+/*______________ #destination ______________*/
+#destination {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  img {
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+}
+/*______________ FIN #destination ______________*/
+
+/*______________ #abonnement ______________*/
+#abonnement {
+  text-align: center;
+  margin: 50px 0;
+  div {
+    display: flex;
+    justify-content: space-evenly;
+    article {
+      width: 25%;
+      border: 1px solid rgb(54, 190, 26);
+      padding: 20px;
+      p:first-of-type {
+        color: rgb(54, 190, 26);
+        font-size: 30px;
+        sup {
+          color: black;
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+/*______________ FIN #abonnement ______________*/
+
+/*______________ #concept ______________*/
+#concept {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.5)),
+    url("un_jeu_avec_une_ville_polluee_par_le_numerique_quil_faut_sauver.png");
+  display: flex;
+  text-align: center;
+  padding-bottom: 500px;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  padding-bottom: 0;
+}
+#Acheter {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  margin: 200px 0;
+  background-color: #0d0d0d;
+  color: white;
+  border-radius: 15px;
+  padding: 0 30px;
+  border: white solid 2px;
+}
+
+footer {
+  text-align: center;
+  margin: 0;
+  padding: 5px 0;
+}
+
+/*______________ FIN #concept ______________*/
